@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.doc_scan.CustomCameraView
+        android:id="@+id/show_camera_activity_java_surface_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/camera_nav_bar"
+        android:layout_marginTop="-87dp" />
+
+    <LinearLayout
+        android:id="@+id/camera_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:background="@color/cbsPurple">
+
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="70dp"
+            android:layout_height="55dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/arrow_back"
+        />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Bon fotograferen"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@id/camera_nav_bar"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="5dp"
+        >
+    <TextView
+        android:id="@+id/camera_hint_LIGHT_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:text="Probeer meer licht te vinden"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@drawable/red_rounded_rect_view"
+        android:layout_marginVertical="5dp"
+        android:visibility="gone"
+        />
+    <TextView
+        android:id="@+id/camera_hint_CONTRAST_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Probeer meer contrast tussen de bon en de achtergrond te krijgen"
+        android:textSize="16dp"
+        android:gravity="center"
+        android:background="@drawable/red_rounded_rect_view"
+        android:layout_marginVertical="5dp"
+        android:visibility="gone"
+        />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/camera_button_bar"
+        >
+
+        <FrameLayout
+            android:layout_width="70dp"
+            android:layout_height="70dp">
+            <Button
+                android:id="@+id/auto_shutter_button"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:text="Auto Scan"
+                android:textSize="12dp"
+                android:background="#00FFFFFF"
+                android:layout_gravity="center"
+                />
+        </FrameLayout>
+
+        <ImageButton
+            android:id="@+id/shutter_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/shutter_button_default"
+            android:src="@drawable/photo_camera"
+            android:tint="#FFFFFF"
+            />
+
+        <ImageButton
+            android:id="@+id/flash_button"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@android:color/transparent"
+            opencv:srcCompat="@drawable/flash_auto" />
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+    <!--    <org.opencv.android.JavaCameraView-->
+    <!--        android:layout_width="fill_parent"-->
+    <!--        android:layout_height="fill_parent"-->
+    <!--        android:visibility="gone"-->
+    <!--        android:id="@+id/show_camera_activity_java_surface_view"-->
+    <!--        opencv:show_fps="true"-->
+    <!--        opencv:camera_id="any" />-->
+
+<!-- <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraView">
+
+</androidx.constraintlayout.widget.ConstraintLayout> -->

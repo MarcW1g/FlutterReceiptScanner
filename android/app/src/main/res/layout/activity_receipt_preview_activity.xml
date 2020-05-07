@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/cropped_preview_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:src="@tools:sample/avatars"/>
+
+    <ProgressBar
+        android:id="@+id/scan_processing_progress_bar"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rounded_rect_view"
+        android:padding="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            >
+
+            <ImageButton
+                android:id="@+id/back_to_crop_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:tint="@color/cbsPurple"
+                android:elevation="6dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/close"/>
+
+            <ImageButton
+                android:id="@+id/submit_receipt_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:tint="@color/white"
+                android:elevation="6dp"
+                android:background="@drawable/shutter_button_default"
+                android:src="@drawable/check"
+                />
+
+            <ImageButton
+                android:id="@+id/enable_disable_filter_button"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:tint="@color/cbsPurple"
+                android:elevation="6dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/photo_filter"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/submit_receipt_button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:clickable="true"-->
+    <!--        android:layout_margin="14dp"-->
+    <!--        android:tint="@android:color/black"-->
+    <!--        android:backgroundTint="@android:color/white"-->
+    <!--        opencv:srcCompat="@drawable/check"-->
+    <!--        android:elevation="6dp"/>-->
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/enable_disable_filter_button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_centerInParent="true"-->
+    <!--        android:clickable="true"-->
+    <!--        android:layout_margin="14dp"-->
+    <!--        android:tint="@android:color/black"-->
+    <!--        android:backgroundTint="@android:color/white"-->
+    <!--        opencv:srcCompat="@drawable/photo_filter"-->
+    <!--        android:elevation="6dp"/>-->
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:id="@+id/back_to_crop_button"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:clickable="true"-->
+    <!--        android:layout_margin="14dp"-->
+    <!--        android:tint="@android:color/black"-->
+    <!--        android:backgroundTint="@android:color/white"-->
+    <!--        opencv:srcCompat="@drawable/chevron_left"-->
+    <!--        android:elevation="6dp"/>-->
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <size
+                android:width="100dp"
+                android:height="100dp" />
+            <solid android:color="@color/cbsPurple" />
+        </shape>
+    </item>
+</layer-list>
+
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android">-->
+<!--&lt;!&ndash; Outer white ring &ndash;&gt;-->
+<!--<item>-->
+<!--    <shape android:shape="oval">-->
+<!--        <padding-->
+<!--            android:bottom="7dp"-->
+<!--            android:left="7dp"-->
+<!--            android:right="7dp"-->
+<!--            android:top="7dp" />-->
+<!--        <size-->
+<!--            android:width="100dp"-->
+<!--            android:height="100dp" />-->
+<!--        <stroke-->
+<!--            android:width="4dp"-->
+<!--            android:color="#FFF" />-->
+<!--    </shape>-->
+<!--</item>-->
+<!--&lt;!&ndash; Inner white circle &ndash;&gt;-->
+<!--<item>-->
+<!--    <shape android:shape="oval">-->
+<!--        <size-->
+<!--            android:width="100dp"-->
+<!--            android:height="100dp" />-->
+<!--        <solid android:color="#FFF" />-->
+<!--    </shape>-->
+<!--</item>-->
+<!--</layer-list>-->

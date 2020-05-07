@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>23946162044-nkr38ggq1n4ivnge7e4477455coerqdr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.23946162044-nkr38ggq1n4ivnge7e4477455coerqdr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>23946162044-i0nt5me50s5b59tp62itr95rvl0mv05g.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCieQ5flIN7pujyykIJy4MBdGyZy_SK3oU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>23946162044</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.mwsd.docScan</string>
+	<key>PROJECT_ID</key>
+	<string>androidreceiptscannertest</string>
+	<key>STORAGE_BUCKET</key>
+	<string>androidreceiptscannertest.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:23946162044:ios:45e32ce33aa34e7117fef9</string>
+	<key>DATABASE_URL</key>
+	<string>https://androidreceiptscannertest.firebaseio.com</string>
+</dict>
+</plist>

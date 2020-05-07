@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="opaqueBlack">#BF000000</color>
+    <color name="opaqueRed">#BFF44336</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="cbsPurple">#AE0D80</color>
+</resources>
